@@ -57,11 +57,14 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 @import "../../../../kclibrary.org/kclib8/themes/outerspace/sass/vendor/normalize";
 @import "susy";
 @import "../../../../kclibrary.org/kclib8/themes/outerspace/sass/vendor/plumber";
-//@import "breakpoint";
+@import "breakpoint";
 @import "../../../../kclibrary.org/kclib8/themes/outerspace/sass/fonts";
 @import "../../../../kclibrary.org/kclib8/themes/outerspace/sass/font-awesome/font-awesome";
 @import "../../../../kclibrary.org/kclib8/themes/outerspace/sass/mixin";
 @import "../../../../kclibrary.org/kclib8/themes/outerspace/sass/base";
+
+@import "../../../../kclibrary.org/kclib8/themes/outerspace/sass/style";
+@import "../../../../kclibrary.org/kclib8/themes/outerspace/sass/box_style";
 
 
 
@@ -75,6 +78,7 @@ $theme-gray: #545555;
 $border: #CCCCCC;
 $pink: #FF1493;
 $lime: #D6df22;
+
 
 
 .theme-color {
@@ -125,6 +129,41 @@ $lime: #D6df22;
   color: $lime;
   background-color: $lime;
 
+}
+
+p {
+  @include body-font;
+  &:not(:last-of-type) {
+    //margin-bottom: 2rem;
+  }
+
+}
+
+h1 {
+  @include h1-font;
+}
+h2 {
+  @include h2-font;
+}
+h3 {
+  @include h3-font;
+}
+h4 {
+  @include h4-font;
+}
+
+ul, ol, dl {
+  @include plumber(
+          $grid-height: $base-grid-height,
+          $baseline: $body-baseline,
+          $font-size: .625,
+          $line-height: 1,
+          $leading-top: 0,
+          $leading-bottom: 1
+  );
+  li {
+
+  }
 }
 
 

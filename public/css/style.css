@@ -4013,64 +4013,696 @@ th {
 /*
 * Colors
 */
-/* line 80, style.scss */
+/* line 3, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace, footer {
+  /*
+  * Keep the styles in a container so as not to override toolbar.
+  */
+  /*
+  * MIXIN INCLUDE FONT DEFINITIONS
+  */
+  /*
+  * Font treatment
+  */
+  /*
+  * Padding Margin and position
+  */
+  /*
+  * Color
+  */
+}
+/* line 8, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace a, footer a {
+  color: #337ab4;
+  text-decoration: none;
+}
+/* line 10, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace a:link, footer a:link {
+  color: #337ab4;
+}
+/* line 13, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace a:visited, footer a:visited {
+  color: #337ab4;
+}
+/* line 16, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace a:hover, footer a:hover {
+  color: #a64123;
+}
+/* line 19, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace a:active, footer a:active {
+  color: #679436;
+  text-decoration: solid;
+}
+/* line 27, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .white a, footer .white a {
+  color: white;
+  text-decoration: none;
+}
+/* line 29, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .white a:link, footer .white a:link {
+  color: white;
+}
+/* line 32, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .white a:visited, footer .white a:visited {
+  color: #323232;
+}
+/* line 35, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .white a:hover, footer .white a:hover {
+  color: #b2b2b2;
+}
+/* line 38, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .white a:active, footer .white a:active {
+  color: #679436;
+  text-decoration: solid;
+}
+/* line 47, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace h2, .outerspace h3, footer h2, footer h3 {
+  color: #555555;
+}
+/* line 51, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace img, footer img {
+  display: block;
+}
+/* line 55, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace p, footer p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin-top: 0rem;
+  padding-top: 0.413rem;
+  padding-bottom: 1.187rem;
+  margin-bottom: 0rem;
+}
+/* line 63, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .half-space p, .outerspace p.half-space, footer .half-space p, footer p.half-space {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  margin-top: 0rem;
+  padding-top: 0.6712rem;
+  padding-bottom: 0.9288rem;
+  margin-bottom: 0rem;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5em;
+}
+/* line 79, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace h1, footer h1 {
+  font-family: latobold, "opensans_bold", "Helvetica", "Arial", sans-serif;
+  font-size: 3.14304rem;
+  line-height: 3.2rem;
+  margin-top: 0rem;
+  padding-top: 0.38364rem;
+  padding-bottom: 1.21636rem;
+  margin-bottom: 0rem;
+}
+@media (min-width: 1px) and (max-width: 668px) {
+  /* line 79, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+  .outerspace h1, footer h1 {
+    font-size: 1.3096rem;
+    line-height: 1.6rem;
+    margin-top: 0rem;
+    padding-top: 0.29318rem;
+    padding-bottom: 1.30682rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (min-width: 669px) and (max-width: 1311px) {
+  /* line 79, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+  .outerspace h1, footer h1 {
+    font-size: 1.83344rem;
+    line-height: 3.2rem;
+    margin-top: -1.6rem;
+    padding-top: 0.89046rem;
+    padding-bottom: 0.70954rem;
+    margin-bottom: 1.6rem;
+  }
+}
+@media (min-width: 1312px) and (max-width: 1920px) {
+  /* line 79, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+  .outerspace h1, footer h1 {
+    font-size: 2.6192rem;
+    line-height: 3.2rem;
+    margin-top: 0rem;
+    padding-top: 0.58637rem;
+    padding-bottom: 1.01363rem;
+    margin-bottom: 0rem;
+  }
+}
+/* line 82, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace h2, footer h2 {
+  font-family: latobold, "opensans_bold", "Helvetica", "Arial", sans-serif;
+  font-size: 2.20608rem;
+  line-height: 6.4rem;
+  margin-top: 0rem;
+  padding-top: 0.74625rem;
+  padding-bottom: 0.85375rem;
+  margin-bottom: 0rem;
+}
+@media (min-width: 1px) and (max-width: 668px) {
+  /* line 82, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+  .outerspace h2, footer h2 {
+    font-size: 1.01112rem;
+    line-height: 3.2rem;
+    margin-top: 3.2rem;
+    padding-top: 1.2087rem;
+    padding-bottom: 0.3913rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (min-width: 669px) and (max-width: 1311px) {
+  /* line 82, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+  .outerspace h2, footer h2 {
+    font-size: 1.28688rem;
+    line-height: 4.8rem;
+    margin-top: 4.8rem;
+    padding-top: 0.30198rem;
+    padding-bottom: 1.29802rem;
+    margin-bottom: -1.6rem;
+  }
+}
+@media (min-width: 1312px) and (max-width: 1920px) {
+  /* line 82, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+  .outerspace h2, footer h2 {
+    font-size: 1.8384rem;
+    line-height: 3.2rem;
+    margin-top: -1.6rem;
+    padding-top: 0.88854rem;
+    padding-bottom: 0.71146rem;
+    margin-bottom: 1.6rem;
+  }
+}
+/* line 85, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace h3, footer h3 {
+  font-size: 2.2944rem;
+  line-height: 1.6rem;
+  margin-top: 1.6rem;
+  padding-top: 1.51207rem;
+  padding-bottom: 0.08793rem;
+  margin-bottom: -1.6rem;
+}
+@media (min-width: 1px) and (max-width: 668px) {
+  /* line 85, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+  .outerspace h3, footer h3 {
+    font-size: 0.84128rem;
+    line-height: 3.2rem;
+    margin-top: 0rem;
+    padding-top: 1.27442rem;
+    padding-bottom: 0.32558rem;
+    margin-bottom: 0rem;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 669px) and (max-width: 1311px) {
+  /* line 85, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+  .outerspace h3, footer h3 {
+    font-size: 1.07072rem;
+    line-height: 3.2rem;
+    margin-top: 1.6rem;
+    padding-top: 1.18563rem;
+    padding-bottom: 0.41437rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (min-width: 1312px) and (max-width: 1920px) {
+  /* line 85, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+  .outerspace h3, footer h3 {
+    font-size: 1.5296rem;
+    line-height: 1.6rem;
+    margin-top: 1.6rem;
+    padding-top: 0.20804rem;
+    padding-bottom: 1.39196rem;
+    margin-bottom: -1.6rem;
+  }
+}
+/* line 88, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace h4, footer h4 {
+  font-size: 1rem;
+  line-height: 3.2rem;
+  margin-top: 0rem;
+  padding-top: 1.213rem;
+  padding-bottom: 0.387rem;
+  margin-bottom: 1.6rem;
+}
+@media (min-width: 1px) and (max-width: 668px) {
+  /* line 88, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+  .outerspace h4, footer h4 {
+    font-size: 1rem;
+    line-height: 3.2rem;
+    margin-top: -1.6rem;
+    padding-top: 1.213rem;
+    padding-bottom: 0.387rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (min-width: 669px) and (max-width: 1311px) {
+  /* line 88, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+  .outerspace h4, footer h4 {
+    font-size: 1rem;
+    line-height: 3.2rem;
+    margin-top: 0rem;
+    padding-top: 1.213rem;
+    padding-bottom: 0.387rem;
+    margin-bottom: 0rem;
+  }
+}
+/* line 93, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace main.main ul, footer main.main ul {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin-top: 0rem;
+  padding-top: 0.413rem;
+  padding-bottom: 1.187rem;
+  margin-bottom: 0rem;
+}
+/* line 112, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .lighter, footer .lighter {
+  font-family: "latohairline" !important;
+  font-weight: 100 !important;
+}
+@media (min-width: 1px) and (max-width: 668px) {
+  /* line 112, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+  .outerspace .lighter, footer .lighter {
+    font-family: latolight !important;
+  }
+}
+@media (min-width: 669px) and (max-width: 1311px) {
+  /* line 112, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+  .outerspace .lighter, footer .lighter {
+    font-family: latolight !important;
+  }
+}
+/* line 123, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .bold, footer .bold {
+  font-weight: bold;
+}
+/* line 127, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .center, footer .center {
+  text-align: center !important;
+}
+/* line 131, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .underline-text, footer .underline-text {
+  text-decoration: underline;
+}
+/* line 135, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .uppercase, footer .uppercase {
+  text-transform: uppercase;
+}
+/* line 143, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .padding, footer .padding {
+  padding: 1rem;
+}
+/* line 146, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .padding-top, footer .padding-top {
+  padding-top: 1rem;
+}
+/* line 149, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .padding-bottom, footer .padding-bottom {
+  padding-bottom: 1rem;
+}
+/* line 152, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .padding-left, footer .padding-left {
+  padding-left: 1rem;
+}
+/* line 155, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .margin, footer .margin {
+  margin: 1rem;
+}
+/* line 158, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .margin-top, footer .margin-top {
+  margin-top: 1rem;
+}
+/* line 161, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .margin-bottom, footer .margin-bottom {
+  margin-bottom: 2rem !important;
+}
+/* line 164, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .margin-left, footer .margin-left {
+  margin-left: 1rem;
+}
+/* line 167, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .margin-bottom-none, footer .margin-bottom-none {
+  margin-bottom: 0px !important;
+}
+/* line 176, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .white, footer .white {
+  color: #fff !important;
+}
+/* line 178, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .white a, footer .white a {
+  color: #fff !important;
+}
+/* line 183, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .black, footer .black {
+  color: #000 !important;
+}
+/* line 187, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .gray-1, footer .gray-1 {
+  color: #191919;
+}
+/* line 191, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .gray-2, footer .gray-2 {
+  color: #323232;
+}
+/* line 195, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .gray-3, footer .gray-3 {
+  color: #4c4c4c;
+}
+/* line 199, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .gray-4, footer .gray-4 {
+  color: #666666;
+}
+/* line 203, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .gray-5, footer .gray-5 {
+  color: #7f7f7f;
+}
+/* line 207, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .gray-6, footer .gray-6 {
+  color: #999999;
+}
+/* line 211, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_style.scss */
+.outerspace .gray-7, footer .gray-7 {
+  color: #b2b2b2;
+}
+
+/* line 1, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_box_style.scss */
+.box {
+  margin-bottom: 48px;
+  clear: both;
+}
+
+/* line 6, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_box_style.scss */
+.box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 14, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_box_style.scss */
+.box h2, .box h2.wysiwyg {
+  border-bottom: 1px solid #CCCCCC;
+  text-transform: uppercase;
+  color: #a64123;
+  font-weight: bold;
+}
+/* line 22, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_box_style.scss */
+.box h3 {
+  font-weight: bold;
+}
+/* line 25, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_box_style.scss */
+.box h3:first-of-type {
+  margin-top: 0;
+}
+/* line 28, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_box_style.scss */
+.box h4 {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  clear: none;
+}
+/* line 37, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_box_style.scss */
+.box ul {
+  margin-bottom: 1.5rem;
+}
+/* line 42, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_box_style.scss */
+.box ul:before, .box ul:after {
+  content: ' ';
+  display: table;
+}
+/* line 47, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_box_style.scss */
+.box table {
+  border: solid 1px #CCC;
+  border-collapse: collapse;
+  width: 100%;
+}
+/* line 51, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_box_style.scss */
+.box table caption {
+  text-align: left;
+  font-weight: bold;
+}
+/* line 55, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_box_style.scss */
+.box table th {
+  padding: 12px;
+  border: solid 1px #a9c6c9;
+}
+/* line 59, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_box_style.scss */
+.box table td {
+  padding: 12px;
+  border: solid 1px #a9c6c9;
+  width: auto;
+}
+/* line 69, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_box_style.scss */
+.box strong {
+  color: #000111;
+}
+/* line 73, ../../../../kclibrary.org/kclib8/themes/outerspace/sass/_box_style.scss */
+.box em {
+  font-style: italic;
+  font-weight: normal;
+}
+
+/* line 84, style.scss */
 .theme-color {
   color: #337ab4;
   background-color: #337ab4;
 }
 
-/* line 84, style.scss */
+/* line 88, style.scss */
 .theme-dark {
   color: #05668D;
   background-color: #05668D;
 }
 
-/* line 89, style.scss */
+/* line 93, style.scss */
 .theme-darker {
   color: #083752;
   background-color: #083752;
 }
 
-/* line 94, style.scss */
+/* line 98, style.scss */
 .theme-tint {
   color: #ebf2fa;
   background-color: #ebf2fa;
 }
 
-/* line 99, style.scss */
+/* line 103, style.scss */
 .theme-comp {
   color: #a64123;
   background-color: #a64123;
 }
 
-/* line 104, style.scss */
+/* line 108, style.scss */
 .theme-comp-dark {
   color: #679436;
   background-color: #679436;
 }
 
-/* line 109, style.scss */
+/* line 113, style.scss */
 .theme-gray {
   color: #545555;
   background-color: #545555;
 }
 
-/* line 114, style.scss */
+/* line 118, style.scss */
 .border {
   color: #CCCCCC;
   background-color: #CCCCCC;
 }
 
-/* line 119, style.scss */
+/* line 123, style.scss */
 .pink {
   color: #FF1493;
   background-color: #FF1493;
 }
 
-/* line 124, style.scss */
+/* line 128, style.scss */
 .lime {
   color: #D6df22;
   background-color: #D6df22;
+}
+
+/* line 134, style.scss */
+p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin-top: 0rem;
+  padding-top: 0.413rem;
+  padding-bottom: 1.187rem;
+  margin-bottom: 0rem;
+}
+
+/* line 142, style.scss */
+h1 {
+  font-family: latobold, "opensans_bold", "Helvetica", "Arial", sans-serif;
+  font-size: 3.14304rem;
+  line-height: 3.2rem;
+  margin-top: 0rem;
+  padding-top: 0.38364rem;
+  padding-bottom: 1.21636rem;
+  margin-bottom: 0rem;
+}
+@media (min-width: 1px) and (max-width: 668px) {
+  /* line 142, style.scss */
+  h1 {
+    font-size: 1.3096rem;
+    line-height: 1.6rem;
+    margin-top: 0rem;
+    padding-top: 0.29318rem;
+    padding-bottom: 1.30682rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (min-width: 669px) and (max-width: 1311px) {
+  /* line 142, style.scss */
+  h1 {
+    font-size: 1.83344rem;
+    line-height: 3.2rem;
+    margin-top: -1.6rem;
+    padding-top: 0.89046rem;
+    padding-bottom: 0.70954rem;
+    margin-bottom: 1.6rem;
+  }
+}
+@media (min-width: 1312px) and (max-width: 1920px) {
+  /* line 142, style.scss */
+  h1 {
+    font-size: 2.6192rem;
+    line-height: 3.2rem;
+    margin-top: 0rem;
+    padding-top: 0.58637rem;
+    padding-bottom: 1.01363rem;
+    margin-bottom: 0rem;
+  }
+}
+
+/* line 145, style.scss */
+h2 {
+  font-family: latobold, "opensans_bold", "Helvetica", "Arial", sans-serif;
+  font-size: 2.20608rem;
+  line-height: 6.4rem;
+  margin-top: 0rem;
+  padding-top: 0.74625rem;
+  padding-bottom: 0.85375rem;
+  margin-bottom: 0rem;
+}
+@media (min-width: 1px) and (max-width: 668px) {
+  /* line 145, style.scss */
+  h2 {
+    font-size: 1.01112rem;
+    line-height: 3.2rem;
+    margin-top: 3.2rem;
+    padding-top: 1.2087rem;
+    padding-bottom: 0.3913rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (min-width: 669px) and (max-width: 1311px) {
+  /* line 145, style.scss */
+  h2 {
+    font-size: 1.28688rem;
+    line-height: 4.8rem;
+    margin-top: 4.8rem;
+    padding-top: 0.30198rem;
+    padding-bottom: 1.29802rem;
+    margin-bottom: -1.6rem;
+  }
+}
+@media (min-width: 1312px) and (max-width: 1920px) {
+  /* line 145, style.scss */
+  h2 {
+    font-size: 1.8384rem;
+    line-height: 3.2rem;
+    margin-top: -1.6rem;
+    padding-top: 0.88854rem;
+    padding-bottom: 0.71146rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+/* line 148, style.scss */
+h3 {
+  font-size: 2.2944rem;
+  line-height: 1.6rem;
+  margin-top: 1.6rem;
+  padding-top: 1.51207rem;
+  padding-bottom: 0.08793rem;
+  margin-bottom: -1.6rem;
+}
+@media (min-width: 1px) and (max-width: 668px) {
+  /* line 148, style.scss */
+  h3 {
+    font-size: 0.84128rem;
+    line-height: 3.2rem;
+    margin-top: 0rem;
+    padding-top: 1.27442rem;
+    padding-bottom: 0.32558rem;
+    margin-bottom: 0rem;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 669px) and (max-width: 1311px) {
+  /* line 148, style.scss */
+  h3 {
+    font-size: 1.07072rem;
+    line-height: 3.2rem;
+    margin-top: 1.6rem;
+    padding-top: 1.18563rem;
+    padding-bottom: 0.41437rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (min-width: 1312px) and (max-width: 1920px) {
+  /* line 148, style.scss */
+  h3 {
+    font-size: 1.5296rem;
+    line-height: 1.6rem;
+    margin-top: 1.6rem;
+    padding-top: 0.20804rem;
+    padding-bottom: 1.39196rem;
+    margin-bottom: -1.6rem;
+  }
+}
+
+/* line 151, style.scss */
+h4 {
+  font-size: 1rem;
+  line-height: 3.2rem;
+  margin-top: 0rem;
+  padding-top: 1.213rem;
+  padding-bottom: 0.387rem;
+  margin-bottom: 1.6rem;
+}
+@media (min-width: 1px) and (max-width: 668px) {
+  /* line 151, style.scss */
+  h4 {
+    font-size: 1rem;
+    line-height: 3.2rem;
+    margin-top: -1.6rem;
+    padding-top: 1.213rem;
+    padding-bottom: 0.387rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (min-width: 669px) and (max-width: 1311px) {
+  /* line 151, style.scss */
+  h4 {
+    font-size: 1rem;
+    line-height: 3.2rem;
+    margin-top: 0rem;
+    padding-top: 1.213rem;
+    padding-bottom: 0.387rem;
+    margin-bottom: 0rem;
+  }
+}
+
+/* line 155, style.scss */
+ul, ol, dl {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin-top: 0rem;
+  padding-top: 0.413rem;
+  padding-bottom: 1.187rem;
+  margin-bottom: 0rem;
 }
 
 /*------------------------------------*\
@@ -4236,7 +4868,7 @@ header, footer, nav, section, article, hgroup, figure {
 /* line 1, scss/base/_main.scss */
 body {
   background: #fff;
-  font: 100%/1.5 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  font: 100%/1.5 latoregular, "opensans", "Helvetica", "Arial", sans-serif;
   -webkit-text-size-adjust: 100%;
   color: #333;
 }
